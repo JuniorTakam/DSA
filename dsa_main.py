@@ -10,7 +10,6 @@ from PyQt5.uic import loadUi
 from PyQt5.QtGui import QTextCursor, QFontMetrics, QFont, QIcon
 from PyQt5.QtCore import pyqtSignal, pyqtSlot, QSize
 from functools import partial  # pour envoyer un parametre à une fonction avec connect()
-# import PIL.ImageGrab
 
 # importation des differents modules de communication, parallelisme
 import sys,os
@@ -21,62 +20,11 @@ class DSA_main(QtWidgets.QMainWindow):
         QtWidgets.QMainWindow.__init__(self)
         loadUi("dsa.ui", self)
 
-
-        ############################## gestion de la partie reservée à la saisie des messages #####################
-
-
-
-        #self.lineEdit_password_chiff.textChanged.connect(self.lineEdit_password_chiff_change)  # si le texte du textedit_input_message est modifié, on appelle la methode self.text_edit_change
-        #self.pushButton_chiffrer.clicked.connect(self.afficher_le_cryptogramme)
-
-        #self.textEdit_entrer_texte.textChanged.connect(self.textEdit_entrer_texte_change)
-
-        #self.lineEdit_password_dechiff.textChanged.connect(self.lineEdit_password_dechiff_change)
-        #self.pushButton_dechiffrer.clicked.connect(self.afficher_le_texte_clair)
-
-        #self.comboBox_type_cle_chiff.currentIndexChanged.connect(self.format_chiff_change)
-        #self.comboBox_type_cle_dechiff.currentIndexChanged.connect(self.format_dechiff_change)
-
-
-
-
-
-
-
-        #self.style_base = self.textBrowser_texte_clair.styleSheet()
-
-
-
-
-
         #        ________             la partie accueil            __________
 
         self.pushButton_ouvrir_fichier_clair.clicked.connect(self.ouvrir_l_explorateur)
-        #self.pushButton_ouvrir_fichier_chiffre.clicked.connect(self.ouvrir_l_explorateur_fichier_chiffre)
         self.fichier_selectionne = ""
         self.fichier_selectionne_ = ""
-
-
-        self.liste_des_fichiers_selectionne = []
-        self.lite_des_fichiers_en_cours_d_envoi = []
-        self.nbr_de_fichiers_a_envoyer = 0
-        self.nbr_de_fichiers_deja_envoyes = 0
-        self.liste_des_fichiers_recus = []
-        self.en_cours_d_envoie = False
-
-
-
-
-
-        #        ________             fin de la partie nouveau            __________
-
-        self.font_message = 14
-        self.font = QFont("bonjour", self.font_message)
-        self.fontmetric = QFontMetrics(self.font)
-
-
-
-
 
         self.pushButton_generer_cle.clicked.connect(self.generate_keys)
 
