@@ -25,7 +25,7 @@ Pour faire fonctionner cette application, assurez-vous d'avoir installé les mod
 Vous pouvez installer ces modules via pip :
 
 ```bash
-pip install cryptography PyQt5
+pip install cryptography PyQt5```
 
 Installation
 
