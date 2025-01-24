@@ -29,33 +29,33 @@ pip install cryptography PyQt5
 
 Installation
 
-    Clonez ou téléchargez ce projet sur votre machine.
-    Installez les dépendances avec pip.
-    Lancez l'application avec la commande suivante :
+- Clonez ou téléchargez ce projet sur votre machine.
+- Installez les dépendances avec pip.
+- Lancez l'application avec la commande suivante :
 
 python DSA_main.py
 
 Utilisation
 
-    Générer les clés : Cliquez sur le bouton "Générer les clés" pour générer une paire de clés publique et privée.
-    Signer un message : Saisissez le message dans le champ prévu à cet effet et cliquez sur "Signer". La signature sera affichée dans l'interface.
-    Vérifier une signature : Chargez un fichier contenant la clé publique, un fichier contenant la signature et un fichier contenant le message à vérifier, puis cliquez sur "Vérifier". L'application affichera si la signature est valide ou non.
+- Générer les clés : Cliquez sur le bouton "Générer les clés" pour générer une paire de clés publique et privée.
+- Signer un message : Saisissez le message dans le champ prévu à cet effet et cliquez sur "Signer". La signature sera affichée dans l'interface.
+- Vérifier une signature : Chargez un fichier contenant la clé publique, un fichier contenant la signature et un fichier contenant le message à vérifier, puis cliquez sur "Vérifier". L'application affichera si la signature est valide ou non.
 
 Fichiers générés
 
-    Clé publique : Le fichier contenant la clé publique générée.
-    Clé privée : Le fichier contenant la clé privée générée.
-    Signature : Le fichier contenant la signature générée.
-    Message : Le fichier contenant le message signé.
+- Clé publique : Le fichier contenant la clé publique générée.
+- Clé privée : Le fichier contenant la clé privée générée.
+- Signature : Le fichier contenant la signature générée.
+- Message : Le fichier contenant le message signé.
 
 Tous ces fichiers sont enregistrés dans un dossier DSA data avec des sous-dossiers pour organiser les différents types de fichiers.
 
 Exemple de workflow
 
-    Générez les clés.
-    Signez un message en saisissant le texte dans le champ approprié.
-    Sauvegardez les fichiers générés : la clé publique, la clé privée, la signature, et le message.
-    Ouvrez ces fichiers avec l'explorateur de fichiers de l'application pour vérifier la signature.
+- Générez les clés.
+- Signez un message en saisissant le texte dans le champ approprié.
+- Sauvegardez les fichiers générés : la clé publique, la clé privée, la signature, et le message.
+- Ouvrez ces fichiers avec l'explorateur de fichiers de l'application pour vérifier la signature.
 
 Interface utilisateur
 
@@ -63,8 +63,8 @@ L'application utilise une interface graphique simple avec des champs de texte po
 
 Auteurs
 
-    TAKAM TCHEUTCHOUA JUNIOR
-    Contributeurs : Si tu souhaites contribuer à cette application, n'hésite pas à soumettre des pull requests ou à ouvrir des issues pour toute amélioration ou problème rencontré.
+- TAKAM TCHEUTCHOUA JUNIOR
+- Contributeurs : Si tu souhaites contribuer à cette application, n'hésite pas à soumettre des pull requests ou à ouvrir des issues pour toute amélioration ou problème rencontré.
 
 Licence
 
