@@ -1,5 +1,3 @@
-Voici le README formaté que tu pourras utiliser sur Git pour ton projet DSA Cryptographic Signing Application :
-
 # DSA Cryptographic Signing Application
 
 ## Description
