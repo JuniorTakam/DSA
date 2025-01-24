@@ -63,7 +63,7 @@ L'application utilise une interface graphique simple avec des champs de texte po
 
 Auteurs
 
-    Ton Nom : TAKAM TCHEUTCHOUA JUNIOR
+    TAKAM TCHEUTCHOUA JUNIOR
     Contributeurs : Si tu souhaites contribuer à cette application, n'hésite pas à soumettre des pull requests ou à ouvrir des issues pour toute amélioration ou problème rencontré.
 
 Licence
